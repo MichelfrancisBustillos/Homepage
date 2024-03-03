@@ -2,17 +2,16 @@
 # For configuration options and examples, please see:
 # https://gethomepage.dev/latest/configs/services
 
-- My First Group:
-    - My First Service:
-        href: http://localhost/
-        description: Homepage is awesome
-
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
-
-- My Third Group:
-    - My Third Service:
-        href: http://localhost/
-        description: Homepage is 😎
+- Katoteros:
+    - Uptime Kuma:
+        icon: uptime-kuma.svg
+        href: http://status.katoteros.org
+        description: Uptime Kuma
+        widget:
+            type: uptimekuma
+            url: https://status.katoteros.org
+            slug: neverland
+    - Unifi:
+        icon: unifi.svg
+        href: https://unifi.katoteros.org
+        description: Unifi Network
